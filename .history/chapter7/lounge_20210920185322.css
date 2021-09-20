@@ -6,22 +6,10 @@ body{
   color: gray;
 }
 h1{
-  /* text-decoration: underline; */
+  text-decoration: underline;
   border-bottom: 1px solid black;
 }
 p{
   color: maroon;
   /* background-color: yellow; */
 } 
-/* em{
-	font-family: serif;
-} */
-p.blueberry{
-  color: purple;
-}
-p.greentea{
-  color: green;
-}
-p.raspberry{
-  color: blue;
-}

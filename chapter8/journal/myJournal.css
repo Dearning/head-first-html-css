@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Emblema One";
+    src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+         url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+body{
+    font-family: "Emblema One", sans-serif;
+    font-size: small;
+    border-color: #cc6600;    
+    /* border-color: #c60; */
+    /* border-color: rgb(80%,20%,0%);     */
+    /* border-color: rgb(204,102,0); */
+    /* border-color: #111111;
+    border-color: #222222;
+    
+    border-color: #333333;
+    border-color: #444444;
+    border-color: #555555;
+    border-color: #666666;
+    border-color: #777777;
+    border-color: #888;
+    border-color: #999;
+    border-color: #aaa;
+    border-color: #bbb; */
+
+
+}
+h1,h2{
+    color: #cc6600;
+    border-bottom: thin dotted #888888;
+    text-decoration: underline overline line-through ;
+}
+h1{
+    font-family: "Emblema One", sans-serif;
+    font-size: 220%;
+    /* border-color: #b80000;
+    border-color: #001700;
+    border-color: #0000e0; */
+}
+h2{
+    font-size: 130%;
+    font-weight: normal;
+}
+blockquote{
+    font-style: italic;
+}
