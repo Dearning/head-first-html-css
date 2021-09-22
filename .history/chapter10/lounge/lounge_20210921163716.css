@@ -17,57 +17,7 @@ h2 {
 }
 #elixirs{
   border-width: thin;
-  border-style: solid;
-  border-color: #007e7e;
-  width: 200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
   
-  margin-left: 20px;
-  text-align: center;
-  background-image: url(images/cocktail.gif);
-  background-repeat: repeat-x;
-
-  line-height: 1;
-  float: right;
-}
-#elixirs h2{
-  color: black;
-}
-#elixirs h3{
-  color: #d12c47;
-}
-#footerDiv{
-  font-size:  50%;
-  text-align: center;
-  line-height: normal;
-  margin-top: 30px;
-}
-.cd{
-  font-style: italic;
-}
-.artist{
-  font-weight: bold;
-}
-/* a:link{
-  color:green;
-}
-a:visited{
-  color:red;
-}
-a:hover{
-  color: yellow;
-} */
-#elixirs a:link{
-  color:green;
-}
-#elixirs a:visited{
-  color:red;  
-}
-#elixirs a:hover{
-  background: #f88396;
-  color: #0d5353;
 }
 #guarantee {
   line-height:         1.9em;

@@ -1,0 +1,23 @@
+body{
+    font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+    /* line-height: 200%; */
+    /* line-height: .5em; */
+    /* line-height: 20px; */
+}
+h1,h2{
+    color: #007e7e;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+.guarantee{
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #a7cece;
+}

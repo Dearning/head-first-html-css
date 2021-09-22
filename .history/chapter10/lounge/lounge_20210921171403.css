@@ -30,7 +30,6 @@ h2 {
   background-repeat: repeat-x;
 
   line-height: 1;
-  float: right;
 }
 #elixirs h2{
   color: black;
@@ -63,11 +62,11 @@ a:hover{
   color:green;
 }
 #elixirs a:visited{
-  color:red;  
+  color:red;
 }
 #elixirs a:hover{
   background: #f88396;
-  color: #0d5353;
+  color: yellow;
 }
 #guarantee {
   line-height:         1.9em;

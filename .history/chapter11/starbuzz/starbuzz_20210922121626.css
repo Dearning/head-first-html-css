@@ -39,15 +39,6 @@ body {
   clear: left;
 }
 
-#allcontent{
-  width: 800px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #675c47;
-  margin-left:  auto;
-  margin-right: auto;
-}
-
 h1 {
   font-size:        120%;
   color:            #954b4b;
@@ -70,3 +61,5 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
+
+#allcontent
