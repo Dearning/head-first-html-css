@@ -1,0 +1,9 @@
+form#table{
+    display: table;
+}
+.left{
+    display: table-cell;
+}
+.right{
+    display: table-cell;
+}

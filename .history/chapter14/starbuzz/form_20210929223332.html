@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+  </head>
+  <body>
+
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click submit to order</h2>
+    <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
+      <table>
+
+
+      </table>
+      <p>
+        <tr>
+          <th> Choose your beans:</th>
+          <td>
+            <select name="beans" id="beans">
+              <option value="house blend">house blend</option>
+              <option value="shade">shade</option>
+              <option value="gua">gua</option>
+              <option value="ken">ken</option>
+            </select>
+          </td>
+        </tr>
+      </p>
+      <p>
+        <tr>
+          <th > Types: </th><br>
+          <td>
+            <input type="radio" name="beantype" value="whole"> whole bean<br>
+          </td>
+          <td>
+            <input type="radio" name="beantype" value="ground" checked> ground<br>
+          </td>
+        </tr>
+        
+      </p>
+      <p>
+        <th> Extras: </th><br>
+        <td>
+          <input type="checkbox" name="extras[]" id="Extras[]" value="giftwrap"> giftwrap <br>
+        
+        <td>
+          <input type="checkbox" name="extras[]" id="Extras[]" value="catalog" checked> catalog <br>
+        </td>
+        
+        
+      </p>
+      <p>
+        <th> Ship to: </th><br>
+        <th>number of bags: </th><input type="number" name="bags" min="1" max="10"> <br>
+        <th>must arrive by date </th><input type="date" name="date"> <br>
+        <th>name:</th><input type="text" name="name"><br>
+        <th>address:</th><input type="text" name="address"><br>
+        <th>city:</th><input type="text" name="city"><br>
+        <th>state:</th><input type="text" name="state"><br>
+        <th>zip:</th><input type="text" name="zip"><br>
+        <th>phone:</th><input type="tel" name="phone"><br>
+      </p>
+      <p>
+        <th>Customer Comments:</th> <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+      </p>
+      <p>
+        <input type="submit" value="order now">
+      </p>
+    </form>
+
+
+  </body>
+</html>
+

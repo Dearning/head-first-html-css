@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Starbuzz Bean Machine</title>
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+  </head>
+  <body>
+
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click submit to order</h2>
+    <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
+      <table>
+
+
+      </table>
+      <p>
+        <tr>
+          <th> Choose your beans:</th>
+          <td>
+            <select name="beans" id="beans">
+              <option value="house blend">house blend</option>
+              <option value="shade">shade</option>
+              <option value="gua">gua</option>
+              <option value="ken">ken</option>
+            </select>
+          </td>
+        </tr>
+      </p>
+      <p>
+        <tr>
+          <th rowspan="2"> Types: </th><br>
+          <td>
+            <input type="radio" name="beantype" value="whole"> whole bean<br>
+          </td>
+          <td>
+            <input type="radio" name="beantype" value="ground" checked> ground<br>
+          </td>
+        </tr>
+        
+      </p>
+      <p>
+        <th rowspan="2"> Extras: </th><br>
+        <td>
+          <input type="checkbox" name="extras[]" id="Extras[]" value="giftwrap"> giftwrap <br>
+        
+        <td>
+          <input type="checkbox" name="extras[]" id="Extras[]" value="catalog" checked> catalog <br>
+        </td>
+        
+        
+      </p>
+      <p>
+        <th> Ship to: </th><br>
+        <th>number of bags: </th>   <td><input type="number" name="bags" min="1" max="10"> </td><br>
+        <th>must arrive by date </th>   <td></td><input type="date" name="date"> </td><br>
+        <th>name:</th>      <td></td><input type="text" name="name"></td><br>
+        <th>address:</th>   <td></td><input type="text" name="address"></td><br>
+        <th>city:</th><td>  </td><input type="text" name="city"></td><br>
+        <th>state:</th><td> </td><input type="text" name="state"></td><br>
+        <th>zip:</th>       <td></td><input type="text" name="zip"></td><br>
+        <th>phone:</th>     <td></td><input type="tel" name="phone"></td><br>
+      </p>
+      <p>
+        <th>Customer Comments:</th> <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+      </p>
+      <p>
+        <input type="submit" value="order now">
+      </p>
+    </form>
+
+
+  </body>
+</html>
+
